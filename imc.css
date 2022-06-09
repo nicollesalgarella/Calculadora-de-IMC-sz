@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(107, 204, 243), rgb(255, 0, 212));
+    height: 100vh;
+    color: #fff;
+}
+
+h3 {
+    color:rgb(130, 209, 255);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+input {
+    border-color: rgb(203, 110, 226);
+    border-width: 1px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+#BtnEnviar {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(212, 109, 221);
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(235, 54, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    border: solid 3px rgb(235, 54, 190);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora de IMC</title>
+   
+    <link rel="stylesheet" href="imc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        
+        <form>
+            <h3>CALCULADORA DE IMC</h3>
+        <label for="peso">Informe seu peso (kg)</label>
+        <br>
+        <input type="text" class="peso" id="peso">
+        <br>
+        <br>
+        <label for="altura">Informe sua altura (metro)</label>
+        <br>
+        <input type="text" class="altura" id="altura">
+        <br>
+        <br>
+        <input type="button" name="BtnEnviar" id="BtnEnviar" value="Calcular" onclick="CalculadoraIMC()">
+        </form>
+
+        <div id="ex1" class="modal">
+        <a href="#" rel="modal:close">Close</a>
+        </div>
+
+
+
+        <script src="OsJquerry/jquery-3.6.0.min.js"></script>
+        <script src="OsJquerry/jquery.mask.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        
+        <script src="calcIMC.js"></script>
+    
+</body>
+</html>
